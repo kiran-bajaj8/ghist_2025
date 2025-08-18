@@ -37,6 +37,8 @@ sample_22
 vim GHIST-bottleneck.popfile
 
 ## add population names (all one population we think, so just assigning everyone to 'pop')
+cat GHIST-bottleneck.popfile
+
 ```
 sample_1	pop
 sample_2	pop
