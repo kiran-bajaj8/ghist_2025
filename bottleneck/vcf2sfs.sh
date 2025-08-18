@@ -9,7 +9,7 @@ bcftools view -m 2 -M 2 -v snps GHIST_2025_bottleneck.testing.vcf.gz -o GHIST-bo
 bcftools query -l GHIST-bottleneck.snps.vcf.gz
 
 # Generating an SFS Using easySFS
-easySFS.py -i GHIST-bottleneck.snps.vcf.gz -p GHIST-bottleneck.popfile --proj 40 -o GHIST_bottleneck_sfs -a --unfold
+/home/hughes.annab/ghist_2025/easySFS/easySFS.py -i GHIST-bottleneck.snps.vcf.gz -p GHIST-bottleneck.popfile --proj 40 -o GHIST_bottleneck_sfs -a --unfold
 
 
 
