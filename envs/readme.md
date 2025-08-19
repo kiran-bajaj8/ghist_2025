@@ -14,3 +14,7 @@ cd easySFS
 chmod 777 easySFS.py
 ./easySFS.py
 ```
+Next, creating a dadi-cli environment:
+```
+conda env create -f conda-cpu-env.yml
+```
