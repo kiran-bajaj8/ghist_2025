@@ -18,3 +18,9 @@ Next, creating a dadi-cli environment: **pick up here next time!**
 ```
 conda env create -f conda-cpu-env.yml
 ```
+
+
+## What do we not understand about dadi?
+- what bounds of paramters are reasonable? how do we choose when we don't know anything about our population?
+- difference between dadi vs momi?
+- 
